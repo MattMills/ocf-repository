@@ -12,6 +12,10 @@ I'd also like to note, exploring these concepts can be inherently distressing at
 
 As a friend of mine once said, "It's a bit like trying to read an infinite book -- no matter how much you read, there's always more."
 
+## Problem statement
+
+I believe we have a fundamental misunderstanding of consciousness, emotion, and cognition. This work is my attempt to explore that discontinuity from a green field perspective, and provide that work for others to take forward more scientifically.
+
 ## Key Concepts
 
 The OCF integrates ideas from psychology, sociology, physics, and systems theory to provide a comprehensive view of consciousness across various scales. Key components include:
@@ -67,3 +71,7 @@ Join our discussions:
 ## License
 
 This project is licensed under CC0 1.0 Unlicense.
+
+## Acknowledgements
+
+ - Anyone that cannot, or does not wish to be publicly acknowledged, your contribution is as mine.
