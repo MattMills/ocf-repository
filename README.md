@@ -8,6 +8,10 @@ The Osmotic Consciousness Framework (OCF) is an innovative theoretical model tha
 
 I am not a scientist. I am know qualified to do this work in any way. Nonetheless, this work is important to me, and I feel it isn't being done. Do with that what you will, I don't care.
 
+I'd also like to note, exploring these concepts can be inherently distressing at times. Remain grounded, but embrace the unknown. 
+
+As a friend of mine once said, "It's a bit like trying to read an infinite book -- no matter how much you read, there's always more."
+
 ## Key Concepts
 
 The OCF integrates ideas from psychology, sociology, physics, and systems theory to provide a comprehensive view of consciousness across various scales. Key components include:
