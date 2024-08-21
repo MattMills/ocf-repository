@@ -8,3 +8,7 @@
    ![dualism understood](dualism_understood.svg)
 4. dualism reality - https://claude.site/artifacts/1cfd92ed-52b2-4416-9e7c-45062639ab3e
    ![dualism reality](dualism_reality.svg)
+5. damage beyond ideal - https://claude.site/artifacts/3db33ee4-c20c-42f7-beea-2487b36a2bfd
+   ![damage beyond ideal](damage_beyond_ideal.svg)
+6. temporal balance: chaos to unity - https://claude.site/artifacts/441fbda2-e4cb-4770-b8da-52e493561673
+   !(chaos to unity)[chaos_to_unity.svg])
