@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <!-- Background -->
+  <rect width="600" height="400" fill="#1a1a1a"/>
+  
+  <!-- Dualistic pairs -->
+  <!-- Pair 1 -->
+  <path d="M100,200 C150,100 450,100 500,200" fill="none" stroke="#e74c3c" stroke-width="4"/>
+  <circle cx="100" cy="200" r="20" fill="#e74c3c"/>
+  <circle cx="500" cy="200" r="20" fill="#3498db"/>
+  
+  <!-- Pair 2 -->
+  <path d="M150,350 C200,250 400,250 450,350" fill="none" stroke="#f39c12" stroke-width="4"/>
+  <circle cx="150" cy="350" r="20" fill="#f39c12"/>
+  <circle cx="450" cy="350" r="20" fill="#27ae60"/>
+  
+  <!-- Pair 3 -->
+  <path d="M150,50 C200,150 400,150 450,50" fill="none" stroke="#9b59b6" stroke-width="4"/>
+  <circle cx="150" cy="50" r="20" fill="#9b59b6"/>
+  <circle cx="450" cy="50" r="20" fill="#16a085"/>
+  
+  <!-- Intermediating force -->
+  <circle cx="300" cy="200" r="40" fill="#ecf0f1" opacity="0.2"/>
+  <path d="M300,200 L100,200 M300,200 L500,200 M300,200 L150,350 M300,200 L450,350 M300,200 L150,50 M300,200 L450,50" 
+        stroke="#ecf0f1" stroke-width="2" opacity="0.5"/>
+  
+  <!-- Decorative elements -->
+  <circle cx="300" cy="200" r="5" fill="#ecf0f1"/>
+  <circle cx="300" cy="200" r="10" fill="none" stroke="#ecf0f1" stroke-width="2"/>
+  <circle cx="300" cy="200" r="20" fill="none" stroke="#ecf0f1" stroke-width="1"/>
+</svg>
