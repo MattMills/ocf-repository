@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <!-- Background representing the "existing environment" -->
+  <rect width="600" height="400" fill="#1a1a1a"/>
+  <path d="M0,100 Q150,150 300,100 T600,100" fill="none" stroke="#333" stroke-width="2"/>
+  <path d="M0,200 Q150,250 300,200 T600,200" fill="none" stroke="#333" stroke-width="2"/>
+  <path d="M0,300 Q150,350 300,300 T600,300" fill="none" stroke="#333" stroke-width="2"/>
+  
+  <!-- Dualistic pairs from previous design -->
+  <path d="M100,200 C150,100 450,100 500,200" fill="none" stroke="#e74c3c" stroke-width="4"/>
+  <circle cx="100" cy="200" r="20" fill="#e74c3c"/>
+  <circle cx="500" cy="200" r="20" fill="#3498db"/>
+  
+  <path d="M150,350 C200,250 400,250 450,350" fill="none" stroke="#f39c12" stroke-width="4"/>
+  <circle cx="150" cy="350" r="20" fill="#f39c12"/>
+  <circle cx="450" cy="350" r="20" fill="#27ae60"/>
+  
+  <path d="M150,50 C200,150 400,150 450,50" fill="none" stroke="#9b59b6" stroke-width="4"/>
+  <circle cx="150" cy="50" r="20" fill="#9b59b6"/>
+  <circle cx="450" cy="50" r="20" fill="#16a085"/>
+  
+  <!-- Virtual connection layer -->
+  <path d="M100,200 L150,350 L150,50 L450,350 L450,50 L500,200 Z" fill="none" stroke="#ecf0f1" stroke-width="2" stroke-dasharray="5,5"/>
+  
+  <!-- Adaptation elements -->
+  <circle cx="125" cy="275" r="15" fill="#ecf0f1" opacity="0.3"/>
+  <circle cx="300" cy="200" r="25" fill="#ecf0f1" opacity="0.3"/>
+  <circle cx="475" cy="125" r="15" fill="#ecf0f1" opacity="0.3"/>
+  
+  <!-- Chain representation -->
+  <path d="M100,200 Q125,275 150,350 Q300,200 450,50 Q475,125 500,200" fill="none" stroke="#f1c40f" stroke-width="3" stroke-dasharray="10,5"/>
+  
+  <!-- Intermediating force (simplified) -->
+  <circle cx="300" cy="200" r="30" fill="none" stroke="#ecf0f1" stroke-width="2"/>
+  <circle cx="300" cy="200" r="5" fill="#ecf0f1"/>
+</svg>
