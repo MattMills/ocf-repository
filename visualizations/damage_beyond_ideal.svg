@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <!-- Background representing the "existing environment" -->
+  <rect width="600" height="400" fill="#1a1a1a"/>
+  <path d="M0,100 Q150,150 300,100 T600,100" fill="none" stroke="#333" stroke-width="2"/>
+  <path d="M0,200 Q150,250 300,200 T600,200" fill="none" stroke="#333" stroke-width="2"/>
+  <path d="M0,300 Q150,350 300,300 T600,300" fill="none" stroke="#333" stroke-width="2"/>
+  
+  <!-- Dualistic pairs (ideal state) -->
+  <path d="M100,200 C150,100 450,100 500,200" fill="none" stroke="#e74c3c" stroke-width="4"/>
+  <circle cx="100" cy="200" r="20" fill="#e74c3c"/>
+  <circle cx="500" cy="200" r="20" fill="#3498db"/>
+  
+  <path d="M150,350 C200,250 400,250 450,350" fill="none" stroke="#f39c12" stroke-width="4"/>
+  <circle cx="150" cy="350" r="20" fill="#f39c12"/>
+  <circle cx="450" cy="350" r="20" fill="#27ae60"/>
+  
+  <path d="M150,50 C200,150 400,150 450,50" fill="none" stroke="#9b59b6" stroke-width="4"/>
+  <circle cx="150" cy="50" r="20" fill="#9b59b6"/>
+  <circle cx="450" cy="50" r="20" fill="#16a085"/>
+  
+  <!-- Unity as damage -->
+  <path d="M300,200 C250,150 200,250 150,200 S50,150 100,200 S200,250 300,200 S400,150 500,200 S550,250 450,200 S350,150 300,200" 
+        fill="none" stroke="#ff4136" stroke-width="3" stroke-dasharray="5,5"/>
+  <circle cx="300" cy="200" r="50" fill="#ff4136" fill-opacity="0.2" stroke="#ff4136" stroke-width="2"/>
+  
+  <!-- Cracks representing damage -->
+  <path d="M250,170 L270,190 M280,160 L290,180 M310,160 L300,180 M330,170 L320,190" 
+        stroke="#ff4136" stroke-width="2"/>
+  
+  <!-- Virtual connection layer (simplified) -->
+  <path d="M100,200 L150,350 L150,50 L450,350 L450,50 L500,200" 
+        fill="none" stroke="#ecf0f1" stroke-width="1" stroke-dasharray="3,3" opacity="0.5"/>
+  
+  <!-- Chain of dualisms (ideal state) -->
+  <path d="M100,200 Q125,275 150,350 Q300,200 450,50 Q475,125 500,200" 
+        fill="none" stroke="#f1c40f" stroke-width="3" stroke-dasharray="10,5"/>
+  
+  <!-- Labels -->
+  <text x="300" y="380" fill="#ecf0f1" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">Ideal Duality</text>
+  <text x="300" y="30" fill="#ff4136" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">Unity as Damage</text>
+</svg>
