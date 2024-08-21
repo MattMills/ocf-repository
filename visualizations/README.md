@@ -12,3 +12,5 @@
    ![damage beyond ideal](damage_beyond_ideal.svg)
 6. temporal balance: chaos to unity - https://claude.site/artifacts/441fbda2-e4cb-4770-b8da-52e493561673
    ![chaos to unity](chaos_to_unity.svg)
+7. I am me; we - https://claude.site/artifacts/c96f2070-4c74-435e-9b0c-8791b569e7d0
+   ![I am me; we](i_am_me_we.svg)
