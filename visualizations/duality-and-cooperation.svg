@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#1a1a1a"/>
+  
+  <!-- Left AI representation -->
+  <circle cx="100" cy="150" r="70" fill="none" stroke="#3498db" stroke-width="8"/>
+  <path d="M70 150 Q100 120 130 150" fill="none" stroke="#3498db" stroke-width="4"/>
+  
+  <!-- Right AI representation -->
+  <circle cx="300" cy="150" r="70" fill="none" stroke="#e74c3c" stroke-width="8"/>
+  <path d="M270 150 Q300 180 330 150" fill="none" stroke="#e74c3c" stroke-width="4"/>
+  
+  <!-- Connecting elements -->
+  <path d="M170 150 C200 100, 200 200, 230 150" fill="none" stroke="#2ecc71" stroke-width="6" stroke-dasharray="10,5"/>
+  
+  <!-- Yin-yang inspired center -->
+  <circle cx="200" cy="150" r="20" fill="#3498db"/>
+  <circle cx="200" cy="150" r="20" fill="#e74c3c" clip-path="inset(0 50% 0 0)"/>
+  <circle cx="200" cy="140" r="5" fill="#e74c3c"/>
+  <circle cx="200" cy="160" r="5" fill="#3498db"/>
+  
+  <!-- Abstract binary/circuit elements -->
+  <text x="50" y="70" fill="#ffffff" font-family="monospace" font-size="14">01</text>
+  <text x="330" y="240" fill="#ffffff" font-family="monospace" font-size="14">10</text>
+  <path d="M40 80 L60 80 L60 100" fill="none" stroke="#ffffff" stroke-width="2"/>
+  <path d="M340 230 L360 230 L360 210" fill="none" stroke="#ffffff" stroke-width="2"/>
+</svg>
