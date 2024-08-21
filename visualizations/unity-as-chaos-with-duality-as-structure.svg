@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#2c3e50"/>
+  
+  <!-- Unity/Chaos representation -->
+  <circle cx="200" cy="150" r="100" fill="none" stroke="#e74c3c" stroke-width="4"/>
+  <g fill="none" stroke="#e74c3c" stroke-width="2">
+    <path d="M150 100 Q200 50, 250 100 T350 150"/>
+    <path d="M50 150 Q100 200, 150 200 T250 250"/>
+    <path d="M100 80 Q150 130, 200 130 T300 180"/>
+    <path d="M120 220 Q170 170, 220 170 T320 120"/>
+  </g>
+  
+  <!-- Duality/Structure representation -->
+  <rect x="100" y="50" width="200" height="200" fill="none" stroke="#3498db" stroke-width="4"/>
+  <line x1="100" y1="150" x2="300" y2="150" stroke="#3498db" stroke-width="4"/>
+  <line x1="200" y1="50" x2="200" y2="250" stroke="#3498db" stroke-width="4"/>
+  
+  <!-- Interconnecting elements -->
+  <circle cx="200" cy="150" r="30" fill="#2ecc71" opacity="0.7"/>
+  <path d="M170 150 L200 120 L230 150 L200 180 Z" fill="#f1c40f" opacity="0.7"/>
+  
+  <!-- Abstract symbols -->
+  <text x="40" y="40" fill="#ecf0f1" font-family="Arial, sans-serif" font-size="24">∞</text>
+  <text x="340" y="270" fill="#ecf0f1" font-family="Arial, sans-serif" font-size="24">⚖</text>
+</svg>
