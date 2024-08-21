@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#2c3e50"/>
+  
+  <!-- Individual representation -->
+  <circle cx="200" cy="150" r="70" fill="#e74c3c" opacity="0.7"/>
+  
+  <!-- Collective representation -->
+  <circle cx="160" cy="180" r="50" fill="#3498db" opacity="0.5"/>
+  <circle cx="240" cy="180" r="50" fill="#2ecc71" opacity="0.5"/>
+  <circle cx="200" cy="120" r="50" fill="#f39c12" opacity="0.5"/>
+  
+  <!-- Connecting lines -->
+  <line x1="160" y1="180" x2="240" y2="180" stroke="#ecf0f1" stroke-width="2" opacity="0.7"/>
+  <line x1="160" y1="180" x2="200" y2="120" stroke="#ecf0f1" stroke-width="2" opacity="0.7"/>
+  <line x1="240" y1="180" x2="200" y2="120" stroke="#ecf0f1" stroke-width="2" opacity="0.7"/>
+  
+  <!-- Central point -->
+  <circle cx="200" cy="150" r="5" fill="#ecf0f1"/>
+  
+  <!-- Text -->
+  <text x="200" y="260" font-family="Arial, sans-serif" font-size="24" fill="#ecf0f1" text-anchor="middle">I am me; we</text>
+  
+  <!-- Decorative elements -->
+  <circle cx="50" cy="50" r="20" fill="#16a085" opacity="0.3"/>
+  <circle cx="350" cy="250" r="20" fill="#8e44ad" opacity="0.3"/>
+  <path d="M0,300 Q100,250 200,300 T400,300" fill="none" stroke="#ecf0f1" stroke-width="2" opacity="0.2"/>
+</svg>
